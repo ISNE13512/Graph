@@ -32,8 +32,10 @@ int main() {
     cout << "Disjointed graph: " << g.isDisjointed() << endl;
  
     cout << endl;
- 
     g.showMST();
+ 
+    cout << endl;
+    g.showShortestPaths('A');
  
     return 0;
 }
